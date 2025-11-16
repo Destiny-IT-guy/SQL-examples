@@ -396,4 +396,181 @@ INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address
 VALUES (56, 'Isabelle', 'Carpentier', 162, 'isabelle.carpentier@itcorp.com', 5140001167, TO_DATE('2015-02-18','YYYY-MM-DD'), NULL, 49, 15, 0, 110000.00);
 
 
+-- Quebec
+-- City Manager (dept 203, job_id 107)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (58, 'Sylvie', 'Tremblay', 203, 'sylvie.tremblay@itcorp.com', 5812201000, TO_DATE('2014-07-01','YYYY-MM-DD'), NULL, NULL, 107, 0, 158000.00);
+
+-- HR Manager (dept 103, job_id 101)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (59, 'Pierre', 'Gauthier', 103, 'pierre.gauthier@itcorp.com', 5812201001, TO_DATE('2015-03-15','YYYY-MM-DD'), NULL, 58, 101, 0, 107800.00);
+
+-- HR Staff (dept 103, job_id 1)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (60, 'Marie', 'Pelletier', 103, 'marie.pelletier@itcorp.com', 5812201002, TO_DATE('2021-06-01','YYYY-MM-DD'), NULL, 59, 1, 0, 50000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (61, 'Luc', 'Beaulieu', 103, 'luc.beaulieu@itcorp.com', 5812201003, TO_DATE('2022-04-12','YYYY-MM-DD'), NULL, 59, 1, 0, 55000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (62, 'Julie', 'Desjardins', 103, 'julie.desjardins@itcorp.com', 5812201004, TO_DATE('2023-09-20','YYYY-MM-DD'), NULL, 59, 1, 0, 48000.00);
+
+-- Field Ops Manager (dept 114, job_id 102)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (63, 'Andre', 'Cote', 114, 'andre.cote@itcorp.com', 5812201005, TO_DATE('2013-08-01','YYYY-MM-DD'), NULL, 58, 102, 0, 128000.00);
+
+-- Field Ops - Road Tech (dept 114, job_id 2)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (64, 'Claude', 'Lavoie', 114, 'claude.lavoie@itcorp.com', 5812201006, TO_DATE('2017-01-10','YYYY-MM-DD'), NULL, 63, 2, 0, 50000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (65, 'Rene', 'Bouchard', 114, 'rene.bouchard@itcorp.com', 5812201007, TO_DATE('2018-03-15','YYYY-MM-DD'), NULL, 63, 2, 0, 48000.00);
+
+-- Field Ops - Fibre Optic Tech (dept 114, job_id 3)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (66, 'Michele', 'Roy', 114, 'michele.roy@itcorp.com', 5812201008, TO_DATE('2016-11-01','YYYY-MM-DD'), NULL, 63, 3, 0, 60000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (67, 'Jacques', 'Leclerc', 114, 'jacques.leclerc@itcorp.com', 5812201009, TO_DATE('2018-07-22','YYYY-MM-DD'), NULL, 63, 3, 0, 58000.00);
+
+-- Field Ops - Electrical Engineer (dept 114, job_id 7)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (68, 'Jean', 'Dupuis', 114, 'jean.dupuis@itcorp.com', 5812201010, TO_DATE('2019-05-10','YYYY-MM-DD'), NULL, 63, 7, 0, 90000.00);
+
+-- Customer Support Manager (dept 125, job_id 103)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (69, 'Nicolas', 'Gagnon', 125, 'nicolas.gagnon@itcorp.com', 5812201011, TO_DATE('2015-10-30','YYYY-MM-DD'), NULL, 58, 103, 0, 98000.00);
+
+-- Customer Support (dept 125, job_id 4)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (70, 'Sophie', 'Trudel', 125, 'sophie.trudel@itcorp.com', 5812201012, TO_DATE('2019-08-01','YYYY-MM-DD'), NULL, 69, 4, 0, 41000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (71, 'Emilie', 'Fortin', 125, 'emilie.fortin@itcorp.com', 5812201013, TO_DATE('2020-09-15','YYYY-MM-DD'), NULL, 69, 4, 0, 40000.00);
+
+-- IT Support Level 1 (dept 125, job_id 5)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (72, 'Laurent', 'Bolduc', 125, 'laurent.bolduc@itcorp.com', 5812201014, TO_DATE('2018-02-15','YYYY-MM-DD'), NULL, 69, 5, 0, 39000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (73, 'Patrick', 'Girard', 125, 'patrick.girard@itcorp.com', 5812201015, TO_DATE('2019-06-01','YYYY-MM-DD'), NULL, 69, 5, 0, 41000.00);
+
+-- IT Support Level 2 (dept 125, job_id 6)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (74, 'Marina', 'Lacroix', 125, 'marina.lacroix@itcorp.com', 5812201016, TO_DATE('2017-11-05','YYYY-MM-DD'), NULL, 69, 6, 0, 38000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (75, 'David', 'Deschamps', 125, 'david.deschamps@itcorp.com', 5812201017, TO_DATE('2018-10-02','YYYY-MM-DD'), NULL, 69, 6, 0, 39000.00);
+
+-- IT & Systems Manager (dept 136, job_id 104)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (76, 'Serge', 'Moreau', 136, 'serge.moreau@itcorp.com', 5812201018, TO_DATE('2012-02-01','YYYY-MM-DD'), NULL, 58, 104, 0, 150000.00);
+
+-- System Administrator (dept 136, job_id 8)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (77, 'Julien', 'Hamel', 136, 'julien.hamel@itcorp.com', 5812201019, TO_DATE('2016-03-10','YYYY-MM-DD'), NULL, 76, 8, 0, 85000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (78, 'Camille', 'Beauchemin', 136, 'camille.beauchemin@itcorp.com', 5812201020, TO_DATE('2017-07-20','YYYY-MM-DD'), NULL, 76, 8, 0, 80000.00);
+
+-- Network Administrator (dept 136, job_id 9)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (79, 'Olivier', 'Caron', 136, 'olivier.caron@itcorp.com', 5812201021, TO_DATE('2015-05-05','YYYY-MM-DD'), NULL, 76, 9, 0, 80000.00);
+
+-- Finance Manager (dept 147, job_id 105)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (80, 'Yves', 'Leduc', 147, 'yves.leduc@itcorp.com', 5812201022, TO_DATE('2014-09-01','YYYY-MM-DD'), NULL, 58, 105, 0, 150000.00);
+
+-- Accountant (dept 147, job_id 10)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (81, 'Claire', 'Gautier', 147, 'claire.gautier@itcorp.com', 5812201023, TO_DATE('2019-03-15','YYYY-MM-DD'), NULL, 80, 10, 0, 56000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (82, 'Daniel', 'Leblanc', 147, 'daniel.leblanc@itcorp.com', 5812201024, TO_DATE('2020-01-10','YYYY-MM-DD'), NULL, 80, 10, 0, 60000.00);
+
+
+-- Toronto City Manager (employee_id 112)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (112, 'Jonathan', 'King', 202, 'jonathan.king@itcorp.com', 6470001000, TO_DATE('2010-01-01','YYYY-MM-DD'), NULL, NULL, 107, 0, 160000.00);
+
+-- Toronto — employee_id from 83 to 111
+
+-- HR Manager (dept 102)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (83, 'Michael', 'Turner', 102, 'michael.turner@itcorp.com', 6470002001, TO_DATE('2014-02-10','YYYY-MM-DD'), NULL, 112, 101, 0, 125000.00);
+
+-- HR Staff
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (84, 'Emma', 'Clark', 102, 'emma.clark@itcorp.com', 6470002002, TO_DATE('2021-06-01','YYYY-MM-DD'), NULL, 83, 1, 0, 47000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (85, 'Daniel', 'White', 102, 'daniel.white@itcorp.com', 6470002003, TO_DATE('2019-09-15','YYYY-MM-DD'), NULL, 83, 1, 0, 52000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (86, 'Olivia', 'Baker', 102, 'olivia.baker@itcorp.com', 6470002004, TO_DATE('2016-11-20','YYYY-MM-DD'), NULL, 83, 1, 0, 60000.00);
+
+
+-- Field Ops Manager (dept 113)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (87, 'Steven', 'Hall', 113, 'steven.hall@itcorp.com', 6470003001, TO_DATE('2015-03-10','YYYY-MM-DD'), NULL, 112, 102, 0, 130000.00);
+
+-- Field Ops staff
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (88, 'Kevin', 'Reed', 113, 'kevin.reed@itcorp.com', 6470003002, TO_DATE('2020-01-08','YYYY-MM-DD'), NULL, 87, 2, 0, 47000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (89, 'Laura', 'Hughes', 113, 'laura.hughes@itcorp.com', 6470003003, TO_DATE('2018-05-14','YYYY-MM-DD'), NULL, 87, 3, 0, 60000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (90, 'Brian', 'Cole', 113, 'brian.cole@itcorp.com', 6470003004, TO_DATE('2016-07-22','YYYY-MM-DD'), NULL, 87, 7, 0, 80000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (91, 'Megan', 'Foster', 113, 'megan.foster@itcorp.com', 6470003005, TO_DATE('2019-10-01','YYYY-MM-DD'), NULL, 87, 2, 0, 52000.00);
+
+-- Customer Support Manager (dept 124)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (92, 'Andrew', 'Morris', 124, 'andrew.morris@itcorp.com', 6470004001, TO_DATE('2016-04-18','YYYY-MM-DD'), NULL, 112, 103, 0, 110000.00);
+
+-- Customer Support staff
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (93, 'Samantha', 'Green', 124, 'samantha.green@itcorp.com', 6470004002, TO_DATE('2020-08-05','YYYY-MM-DD'), NULL, 92, 4, 0, 40000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (94, 'Ethan', 'Coleman', 124, 'ethan.coleman@itcorp.com', 6470004003, TO_DATE('2018-02-20','YYYY-MM-DD'), NULL, 92, 5, 0, 45000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (95, 'Natalie', 'Mason', 124, 'natalie.mason@itcorp.com', 6470004004, TO_DATE('2017-09-11','YYYY-MM-DD'), NULL, 92, 6, 0, 54000.00);
+
+-- IT & Systems Manager (dept 135)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (96, 'Robert', 'Fisher', 135, 'robert.fisher@itcorp.com', 6470005001, TO_DATE('2012-01-15','YYYY-MM-DD'), NULL, 112, 104, 0, 150000.00);
+
+-- IT & Systems staff
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (97, 'Jason', 'Wright', 135, 'jason.wright@itcorp.com', 6470005002, TO_DATE('2019-06-24','YYYY-MM-DD'), NULL, 96, 8, 0, 85000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (98, 'Christine', 'Adams', 135, 'christine.adams@itcorp.com', 6470005003, TO_DATE('2017-03-30','YYYY-MM-DD'), NULL, 96, 9, 0, 90000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (99, 'Daniel', 'Bryant', 135, 'daniel.bryant@itcorp.com', 6470005004, TO_DATE('2015-10-05','YYYY-MM-DD'), NULL, 96, 11, 0, 98000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (100, 'Rebecca', 'Mills', 135, 'rebecca.mills@itcorp.com', 6470005005, TO_DATE('2016-07-12','YYYY-MM-DD'), NULL, 96, 8, 0, 82000.00);
+
+-- Finance Manager (dept 146)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (101, 'Patrick', 'Stone', 146, 'patrick.stone@itcorp.com', 6470006001, TO_DATE('2014-09-01','YYYY-MM-DD'), NULL, 112, 105, 0, 140000.00);
+
+-- Accountants
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (102, 'Holly', 'Evans', 146, 'holly.evans@itcorp.com', 6470006002, TO_DATE('2019-03-20','YYYY-MM-DD'), NULL, 101, 10, 0, 60000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (103, 'Gavin', 'Knight', 146, 'gavin.knight@itcorp.com', 6470006003, TO_DATE('2017-05-28','YYYY-MM-DD'), NULL, 101, 10, 0, 72000.00);
+
+-- Network & Security Manager (dept 157)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (104, 'Christopher', 'Coleman', 157, 'christopher.coleman@itcorp.com', 6470007001, TO_DATE('2013-12-03','YYYY-MM-DD'), NULL, 112, 108, 0, 120000.00);
+
+-- Net/Security staff
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (105, 'Julia', 'Parker', 157, 'julia.parker@itcorp.com', 6470007002, TO_DATE('2018-11-19','YYYY-MM-DD'), NULL, 104, 12, 0, 68000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (106, 'Mark', 'Wells', 157, 'mark.wells@itcorp.com', 6470007003, TO_DATE('2015-04-07','YYYY-MM-DD'), NULL, 104, 13, 0, 120000.00);
+
+-- Software & R&D Manager (dept 163)
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (107, 'Kevin', 'Anderson', 163, 'kevin.anderson@itcorp.com', 6470008001, TO_DATE('2014-06-25','YYYY-MM-DD'), NULL, 112, 106, 0, 135000.00);
+
+-- Software & R&D staff
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (108, 'Brandon', 'Harris', 163, 'brandon.harris@itcorp.com', 6470008002, TO_DATE('2019-08-01','YYYY-MM-DD'), NULL, 107, 14, 0, 80000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (109, 'Ashley', 'Reed', 163, 'ashley.reed@itcorp.com', 6470008003, TO_DATE('2016-10-10','YYYY-MM-DD'), NULL, 107, 14, 0, 110000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (110, 'Trevor', 'Simpson', 163, 'trevor.simpson@itcorp.com', 6470008004, TO_DATE('2015-02-18','YYYY-MM-DD'), NULL, 107, 15, 0, 115000.00);
+INSERT INTO employee (employee_id, first_name, last_name, dept_id, email_address, phone_number, starting_date, end_date, mgr_id, job_id, project_id, salary)
+VALUES (111, 'Nicole', 'Bennett', 163, 'nicole.bennett@itcorp.com', 6470008005, TO_DATE('2021-09-01','YYYY-MM-DD'), NULL, 107, 14, 0, 78000.00);
+
 SET DEFINE ON;
